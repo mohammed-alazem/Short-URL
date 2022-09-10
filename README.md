@@ -1,6 +1,6 @@
 # Short-URL
 
-=====
+
 urlshorterapp
 =====
 
@@ -15,8 +15,10 @@ Quick start
 1. Add "urlshorterapp" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
+    
         ...
         'urlshorterapp',
+	
     ]
 2. Add   this line to settings file  :     MAXIMUM_URL_CHARS = 10 
 

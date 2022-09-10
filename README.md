@@ -11,15 +11,15 @@ Quick start
 2. Add "urlshorterapp" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
-    
         ...
+	
         'urlshorterapp',
 	
     ]
     
 3. Add this line to settings file::    
 
-	 MAXIMUM_URL_CHARS = 10 
+	`` MAXIMUM_URL_CHARS = 10 ``
 
 	 This Responsible for specifying the length of the generated text.
 
@@ -27,7 +27,7 @@ Quick start
 
 4. Include the urlshorterapp URLconf in your project urls.py like this::
 
-    path('',include('urlshorterapp.urls')),
+    ``path('',include('urlshorterapp.urls')),``
 
 5. Run ``python manage.py makemigrations `` .
 

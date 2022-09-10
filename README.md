@@ -1,9 +1,5 @@
 # Short-URL
 
-
-urlshorterapp
-=====
-
 Short-URL is a Django app to make short url 
 
 

@@ -35,6 +35,6 @@ Quick start
 
 6. Run ``python manage.py migrate`` to create the shorturls models.
 
-7.Run ``python manage.py runserver`` to run the django server.
+7. Run ``python manage.py runserver`` to run the django server.
 
 8. Visit http://127.0.0.1:8000/short_url/  .
